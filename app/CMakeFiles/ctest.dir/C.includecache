@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sofo4ka/test-lab/ctest/app/main.c
+stdio.h
+-
+myfunc.h
+/home/sofo4ka/test-lab/ctest/app/myfunc.h
+
+/home/sofo4ka/test-lab/ctest/app/myfunc.c
+stdio.h
+-
+stdlib.h
+-
+myfunc.h
+/home/sofo4ka/test-lab/ctest/app/myfunc.h
+math.h
+-
+
+/home/sofo4ka/test-lab/ctest/app/myfunc.h
+
